@@ -33,11 +33,11 @@ google_asl
 ├── preprocessing_keras_layer/                  
 |   └── angular_distance_layers.py            
 ├── models/
-|   ├── gru_asl_model.py                   
-|   ├── nn_asl_model.py         
-|   └── sequential_model.py             
+|   ├── gru_asl_model.ipynb                   
+|   ├── nn_asl_model.ipynb         
+|   └── sequential_model.ipynb             
 └── application/
-|   └── real_time_asl_recognition.py        
+|   └── real_time_asl_recognition.ipynb        
 ```
 
 ## Overview
