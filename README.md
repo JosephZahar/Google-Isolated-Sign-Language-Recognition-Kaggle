@@ -37,6 +37,7 @@ google_asl
 |   ├── nn_asl_model.ipynb         
 |   └── sequential_model.ipynb             
 └── application/
+|   ├── mediapipe_landmarks.py
 |   └── real_time_asl_recognition.ipynb        
 ```
 
