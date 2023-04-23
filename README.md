@@ -2,6 +2,9 @@
 <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=flat-square&logo=python&logoColor=white" /> <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white&style=flat" /> 
  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat" />
 
+<br>
+
+![header](https://user-images.githubusercontent.com/70657426/233868082-147bd7a7-08fd-4744-92ee-b396c42b6771.png)
 # Google-Isolated-Sign-Language-Recognition-Kaggle
 The goal of this competition is to classify isolated American Sign Language (ASL) signs. We create a TensorFlow Lite model trained on labeled landmark data extracted using the MediaPipe Holistic Solution to improve the ability of PopSign to help relatives of deaf children learn basic signs and communicate better with their loved ones.
 
@@ -13,12 +16,16 @@ google_asl
 |   ├── feature_engineering.py   
 |   └── helper_functions.py   
 ├── visualization_scripts/  
-|   ├── animated_3d_viz.py
-|   └── viz_dashbiard.py               
+|   ├── animated_3d_viz.ipynb
+|   └── viz_dashboard.ipynb               
 ├── datasets/  
-|   ├── mean_dataset.npy              
-|   ├── spatio_temporal_script.py   
-|   ├── spatio_temporal_data.py   
+|   ├── mean_dataset.npy
+|       ├── feature_data.npy
+|       └── feature_labels.npy
+|   ├── spatio_temporal_data/  
+|       ├── spatio_temporal_script.ipynb
+|       ├── feature_data.npy
+|       └── feature_labels.npy
 |   └── kaggle_data/      
 |       ├── sign_to_prediction_index_map.json
 |       ├── train.csv
