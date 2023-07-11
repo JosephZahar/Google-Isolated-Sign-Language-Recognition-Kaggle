@@ -6,7 +6,12 @@
 
 ![header](https://user-images.githubusercontent.com/70657426/233868082-147bd7a7-08fd-4744-92ee-b396c42b6771.png)
 # Google-Isolated-Sign-Language-Recognition-Kaggle
-The goal of this competition is to classify isolated American Sign Language (ASL) signs. We create a TensorFlow Lite model trained on labeled landmark data extracted using the MediaPipe Holistic Solution to improve the ability of PopSign to help relatives of deaf children learn basic signs and communicate better with their loved ones.
+Deaf children are often born to hearing parents who do not know sign language. The challenge in this code competition is to help identify signs made in processed videos, which will support the development of mobile apps to help teach parents sign language so they can communicate with their Deaf children.
+
+The competition aims to develop a TensorFlow Lite model for classifying isolated American Sign Language (ASL) signs. The model will be trained on labeled landmark data extracted using the MediaPipe Holistic Solution. The goal is to improve the functionality of the PopSign smartphone game app, which helps parents of deaf children learn ASL and allows anyone interested in learning sign language vocabulary to practice.
+
+By creating a sign language recognizer, participants can enhance the game's interactivity and facilitate learning and communication for players who want to use sign language to connect with their loved ones. Since the app doesn't send user videos to the cloud and performs all inference on the device itself, TensorFlow Lite is the chosen framework to ensure low latency within the game. 
+
 
 ## Project Structure
 
